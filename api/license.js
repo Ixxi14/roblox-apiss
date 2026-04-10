@@ -5,9 +5,10 @@ export default function handler(req, res) {
 
     const { universeId } = req.body;
 
-    const allowedUniverses = [
-        9918740473
-    ];
+const allowedUniverses = [
+    9918740473,
+    9860321840
+];
 
     if (!universeId) {
         return res.status(400).json({
