@@ -7,7 +7,8 @@ export default function handler(req, res) {
 
 const allowedUniverses = [
     9918740473,
-    9031635925
+    9031635925,
+    10067910087
 ];
 
     if (!universeId) {
